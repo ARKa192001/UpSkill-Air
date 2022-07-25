@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+    <title>UpSkill Air</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!iconscot cdn>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    <! montserrat g-font>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="./favicon_io/site.webmanifest"> 
+    <style>
+        body { background-image: url("./images/bg-texture.png") }
+    </style>
+  
+</head>
+<body>
+    <!nav bar inside nav tag semantics of html5 wrap it up inside a div (BEM)>
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html"><h4>UpSkill Air</h4></a>
+            <ul class="nav__menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container header__container">
+            <div class="header__left">
+                  <h1>Grow your skills to advance in your career path.</h1>
+                  <p>
+                    Whether you're an IT professional or in the world of Finance, Upskill Air has got you covered.
+                    Choose from our wide range of tech and finance courses and start upskilling yourself today!
+                  </p>
+                  <a href="courses.html" class="btn btn-primary">Get Started</a>
+            </div>
+            <div class="header__right">
+                 <div class="header__right-image">
+                    <img src="./images/header.svg">
+                 </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="categories">
+        <div class="container categories__container">
+            <div class="categories__left">
+                <h1>Categories</h1>
+                <p>
+                    We have a wide range of courses ranging from Data Science, Data Analytics, Business Analytics, Graphic Design, Financial Markets, Crypto Currency, BlockChain and many more! 
+                </p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="categories__right">
+                <article class="category">
+                    <span class="category__icon"><i class="uil uil-bitcoin-circle"></i></span>
+                        <h5>BlockChain</h5>
+                        <p>Harness the power of the most disruptive technology since the internet through real life examples! Master Blockchain Now!</p>
+                </article>
+
+                <article class="category">
+                    <span class="category__icon"><i class="uil uil-window"></i></span>
+                        <h5>Web Developement</h5>
+                        <p>Become a Full Stack Web Developer with just ONE course. You will learn about HTML, CSS, Javascript, React, Node, MongoDB, Web3, Dapps and a lot more!</p>
+                </article>
+
+                <article class="category">
+                    <span class="category__icon"><i class="uil uil-brackets-curly"></i></span>
+                        <h5>Algorithmic Toolbox</h5>
+                        <p>Learn the concepts of DSA and become a FAAANG ready Java developer today! Arrays, Lists, Trees, Graphs and many more!</p>
+                </article>
+
+                <article class="category">
+                    <span class="category__icon"><i class="uil uil-analytics"></i></span>
+                        <h5>Data Science Toolbox</h5>
+                        <p>Learn how to use NumPy, Pandas, Seaborn , Matplotlib , Plotly , Scikit-Learn , Machine Learning, Tensorflow , and more!</p>
+                </article>
+
+                <article class="category">
+                    <span class="category__icon"><i class="uil uil-chart-line"></i></span>
+                        <h5>Financial Markets</h5>
+                        <p>Learn To Trade The Stock Market. #1 Trading course. Inc: Technical Analysis, Candlesticks, Stocks, Day Trading +++</p>
+                </article>
+
+                <article class="category">
+                    <span class="category__icon"><i class="uil uil-dollar-alt"></i></span>
+                        <h5>Finance with MS Excel</h5>
+                        <p>Microsoft Excel Beginner to Professional. Includes Pivot Tables, Power Query, NEW Formulas!</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="courses">
+        <h2>Our Popular Courses</h2>
+        <div class="container courses__container">
+            <article class="course">
+                <div class="course__image">
+                    <img src="./images/course1.jpg">
+                </div>
+                <div class="course__info">
+                    <h4>Responsive Social Media Website UI Design</h4>
+                <p>Use Figma to get a job in UI Design, User Interface, User Experience design, UX Design & Web Design</p>
+                <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course__image">
+                    <img src="./images/course2.jpg">
+                </div>
+                <div class="course__info">
+                    <h4>Data Science Toolbox</h4>
+                <p>Learn how to use NumPy, Pandas, Seaborn , Matplotlib , Plotly , Scikit-Learn , Machine Learning, Tensorflow , and more!</p>
+                <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course__image">
+                    <img src="./images/course3.jpg">
+                </div>
+                <div class="course__info">
+                    <h4>Algorithmic Toolbox</h4>
+                <p>Learn the concepts of DSA and become a FAAANG ready Java developer today! Arrays, Lists, Trees, Graphs and many more!</p>
+                <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="faqs">
+        <h2>Frequently Asked Questions</h2>
+        <div class="container faqs__container">
+           <atricle class="faq">
+            <div class="faq__icon"><i class="uil uil-plus"></i></div>
+            <div class="question__answer">
+                <h4>How do I get my doubts resolved? Will there be any TA assigned to me?</h4>
+                <p>
+                    We have a team of 100+ Teaching Assistants (TA) to help resolve the problems online and on almost a real-time basis. You can raise doubts through portal on any problem, video you are attempting and our TAs will connect you via chat, audio call or video call for your doubt resolution.
+                </p>
+            </div>
+           </atricle>
+           <atricle class="faq">
+            <div class="faq__icon"><i class="uil uil-plus"></i></div>
+            <div class="question__answer">
+                <h4>Which plan should I take? Basic, Standard, Pro or Premium?</h4>
+                <p>
+                    If you are looking for a complete learning journey that involves content learning of data structures and Java along with other supports such as placement preparation, good profile creation, resume review, grabbing additional skills required apart from main content etc, then we'll refer you to go for the Premium plan. If you want to learn Java with DS & Algo then go for the Pro plan. And If you want just data structures without basics of Java then go for the Standard plan. If you feel that you just want to learn the basics of Java and you already know data structures and don’t need any kind of support from us then go for the Basic plan.
+                </p>
+            </div>
+           </atricle>
+           <atricle class="faq">
+            <div class="faq__icon"><i class="uil uil-plus"></i></div>
+            <div class="question__answer">
+                <h4>Where will the classes be conducted? What are the course timings?</h4>
+                <p>
+                    The course will be conducted Online only. It has been designed in such a manner that you will have all the Online Videos and other content with you which can be accessed from anywhere at any point in time.
+                </p>
+            </div>
+           </atricle>
+           <atricle class="faq">
+            <div class="faq__icon"><i class="uil uil-plus"></i></div>
+            <div class="question__answer">
+                <h4>I have done a UpSkill Air course before. Is there any alumni discount?</h4>
+                <p>
+                    There is a flat 10% discount for any alumni or existing student of UpSkill Air who wants to avail this course
+                </p>
+            </div>
+           </atricle>
+           <atricle class="faq">
+            <div class="faq__icon"><i class="uil uil-plus"></i></div>
+            <div class="question__answer">
+                <h4>Do I need a computer science or finance background to enrol for this course?</h4>
+                <p>
+                    We don’t feel that degree or field of study can be a substitute for your determination and passion to Code. However, we do expect you to have strong aptitude skills so that you can learn the course well.
+                </p>
+            </div>
+           </atricle>
+           <atricle class="faq">
+            <div class="faq__icon"><i class="uil uil-plus"></i></div>
+            <div class="question__answer">
+                <h4>Is there a guarantee that I will get an Internship or job after taking this course?</h4>
+                <p>
+                    UpSkill Air has always kept their promises and is a trusted brand in the Education Industry with an experience of upskilling 15,000+ Engineering Students. We will create your profile, prepare a resume, conduct mock interviews and do our best to help you get an internship. However, it is upto you how you best utilize our resources to secure an opportunity.
+                </p>
+            </div>
+           </atricle>
+           <atricle class="faq">
+            <div class="faq__icon"><i class="uil uil-plus"></i></div>
+            <div class="question__answer">
+                <h4>What is the approximate stipend offered in internships through UpSkill Air placement cell after completing this course?
+                </h4>
+                <p>
+                    Generally UpSkill Air students get offered salary packages between Rs. 5 lakh per annum to Rs. 20 lakh per annum. Based on your profile you can choose to apply to companies that come for placements.
+                </p>
+            </div>
+           </atricle>
+           <atricle class="faq">
+            <div class="faq__icon"><i class="uil uil-plus"></i></div>
+            <div class="question__answer">
+                <h4>My exams are coming; I don’t know when my college will start due to COVID; I have lots of work at office, should I take the course or not?
+                </h4>
+                <p>
+                    We have introduced a 60 days Course Pause feature. Through this, you can pause and extend your course for upto 60 days and easily continue with your college and semester exams, even if the college reopens in between the course. For working professionals as well if you have a period where you have lots of work in office you can pause this course and continue once you have a lean period.
+                </p>
+            </div>
+           </atricle>
+           <atricle class="faq">
+            <div class="faq__icon"><i class="uil uil-plus"></i></div>
+            <div class="question__answer">
+                <h4>Is there any number to contact for query?</h4>
+                <p>
+                    You may call us on our toll-free number: +91-7044641575/+91-9123725648 or Drop us an email at arkabhattacharya19@gamil.com.
+                </p>
+            </div>
+           </atricle>
+           <atricle class="faq">
+            <div class="faq__icon"><i class="uil uil-plus"></i></div>
+            <div class="question__answer">
+                <h4>What is the Validity of this course?</h4>
+                <p>
+                    The Course Content, Videos & practice content comes with lifetime validity.
+                </p>
+            </div>
+           </atricle>
+        </div>
+    </section>
+
+    <section class="container testimonials__container mySwiper">
+        <h2>Students' Testimonials</h2>
+        <div class="swiper-wrapper">
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar1.jpg">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Mitsuha Miyamizu</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial__body">
+                    Great course! Enjoyed it! Dan Scott is an amazing teacher. Very detailed step by step explanation. He teaches all the functions of Figma in a fun and exciting way. 
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar2.jpg">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Kaneki Ken</h5>
+                    <small>Web Developer</small>
+                </div>
+                <div class="testimonial__body">
+                    Colt is very good in explaining every bit of details that a developer needs to learn. Not a single topic is boring, every topic is very informative and he makes it easy to understand.
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar5.jpg">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Marin Kitagawa</h5>
+                    <small>Data Scientist</small>
+                </div>
+                <div class="testimonial__body">
+                    This is a very great material for learning data science. I recommend you to take this course. Sometimes, I have to research the statistic to understand more. 
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar3.jpg">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Eren Yeager</h5>
+                    <small>Financial Analyst</small>
+                </div>
+                <div class="testimonial__body">
+                    I have enjoyed learning accounting/finance concepts in this course. The instructor provided easy to understand examples that helped me understand the topics.
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar4.jpg">
+                </div>
+                <div class="testimonial__info">
+                    <h5>Rui Tachibana</h5>
+                    <small>Google Developer</small>
+                </div>
+                <div class="testimonial__body">
+                    Excellent course!! I feel that I have a deeper understanding of algorithms after taking this course. I also appreciate the list of popular interview questions, and the extremely helpful tips. 
+                </div>
+            </article>
+        </div>
+        <div class="swiper-pagination"></div>
+    </section>
+
+    <footer>
+        <div class="container footer__container">
+            <div class="footer__1">
+                <a href="index.html" class="footer__logo"><h4>UpSkill Air</h4></a>
+                <p>Keep Learning, Keep UpSkilling!</p>
+            </div>
+
+            <div class="footer__2">
+                <h4>Permalinks</h4>
+                <ul class="permalinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__3">
+                <h4>Privacy</h4>
+                <ul class="privacy">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__4">
+                <h4>Contact Us</h4>
+                <div>
+                    <p>+91-7044641575/+91-9123725648</p>
+                    <p>arkabhattacharya19@gamil.com</p>
+                </div>
+                <ul class="footer__socials">
+                    <li>
+                      <a href="https://www.instagram.com/bhattacharya__arka/"><i class="uil uil-instagram-alt"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/ArkaB_19"><i class="uil uil-twitter"></i></a>
+                    </li>
+                    <li>
+                       <a href="https://www.linkedin.com/in/arka-bhattacharya-4665321b6/"><i class="uil uil-linkedin"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <small>Copyright &copy; Arka Bhattacharya</small>
+        </div>
+    </footer>
+
+
+
+    <script src="./main.js"></script> 
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script>
+        // slides for testimonials section
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+          },
+          // when window width is >= 600px
+          breakpoints: {
+              600: {
+                  slidesPerView: 2
+              }
+          }
+      });
+    </script>
+</body>
+</html>
+
